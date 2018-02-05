@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First HTML</title>
+            <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- Linking CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Linking jQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!-- Linking Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab|Yellowtail' rel='stylesheet' type='text/css'>
+    </head>
+
+<body>
+
+<h1>HTML Practice Page</h1>
+
+<div class="row">
+    <div style="text-align: center;"><IMG SRC="http://ictacademy.com.ng/wp-content/uploads/2017/10/14570828119302_illu-cours_html5-css3.png" ALT="image"></div>
+</div>
+
+<br><br>
+
+<div class ="row">
+    <div class="col-sm-5">
+        <div class="panel panel-primary">
+                <div class="panel-heading">Bio</div>
+                <div class="panel-body">
+                    
+                    <p>
+                        <a href="http://www.youtube.com" target="_blank">Click Here</a></a>
+                    </p>
+                    <p>
+                        <a href="http://www.google.com"><b>Search Engine</b></a>
+                    </p>
+                    <p>
+                        <a>Placeholder</a>
+                    </p>
+                </div>
+        </div>
+</div>
+<div class="row">
+    <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">How to Make a Sandwitch</div>
+                   <div class="panel-body">
+                       <ol>
+                           <li>Cut two slices of bread</li>
+                           <li>Spread mustard on one side of one slice of bread</li>
+                           <li>Place turkey/ham/whatever meat or vegetables you want on the other</li>
+                           <li>Put a slice of cheese on top</li>
+                           <li>Put the two pieces of bread together</li>
+                           <li>(Optional)Toast your sandwitch in a pan or oven</li>
+                           <li>Enjoy!</li>
+                       </ol>
+               </div>
+           </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-5">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Favorite Bands</div>
+                   <div class="panel-body">
+                       <ul>
+                           <li>Sonata Arctica</li>
+                           <li>Van Canto</li>
+                           <li>Unleash the Archers</li>
+                           <li>Alice Cooper</li>
+                           <li>Dio</li>
+                       </ul>
+               </div>
+           </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
